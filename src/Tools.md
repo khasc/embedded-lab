@@ -194,7 +194,7 @@ Explain how the timing of the blinking of the LED is controlled.
 Start `code` in the root of your repository based on `lf-3pi-template` (see [Getting Started](GettingStarted.html#clone-your-repository)):
 
 ```bash
-$ cd ~/my-rpi3
+$ cd ~/my-3pi
 $ code .
 ```
 
