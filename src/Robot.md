@@ -12,7 +12,7 @@ The purpose of this exercise is to write software that uses sensor data to maneu
 
 2. For this lab, we will be using a gyroscope to sense turns made by the robot. 
 The [ST LMS6DSO inertial module](https://www.pololu.com/file/0J1899/lsm6dso.pdf), which you encountered in the [Sensors lab](./Sensors.md), includes a gyroscope as well as the accelerometer you used in that lab.
-The gyroscope senses *angular velocity* and reports it in units of degrees per second (<sup>o</sup>/s).
+The gyroscope senses *angular velocity* and reports it in units of degrees per second (°/s).
 
     There is a Lingua Franca reactor called `Gyro` available to you in `src/lib/IMU.lf` that outputs gyroscope measurements in units of degrees per second when triggered.
     Suppose that what you want is not angular velocity but rather a measurement of the
